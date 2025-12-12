@@ -55,3 +55,7 @@ MeltEmulation
 
 ## Citation
 This repository accompanies a paper that is currently in the submission process.
+
+
+Code: licensed under MIT — see `LICENSE` file .
+
