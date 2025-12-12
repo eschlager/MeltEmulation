@@ -4,7 +4,7 @@ This repository is part of a PhD project, which aims to emulate components from 
 SMB estimation with polar RCMs includes (1) dynamic downscaling of the atmospheric variables, and (2) a firn model to infer SMB components based on the atmospheric data. While there are many efforts in statistical downscaling using ML to replace the computationally expensive RCMs, this work focuses on the second part: emulating the firn model.
 The proposed ML model is a modular Neural Network, trained on HIRHAM5 data; it takes daily atmospheric variables as inputs, and yields daily surface melt as outputs.
 
-<img src="https://github.com/eschlager/MeltEmulation/blob/main/modeling_overview.png" title="SMB estimation with polar RCMs" height="200">
+<img src="https://github.com/eschlager/MeltEmulation/blob/main/modeling_overview.png" title="SMB estimation with polar RCMs" height="270">
 
 ## Network Architecture
 <img src="https://github.com/eschlager/MeltEmulation/blob/main/NNmelt_architecture.png" height="300">
