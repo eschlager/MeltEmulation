@@ -1,0 +1,62 @@
+data:
+  input:
+  - tas
+  - rainfall
+  - snfall
+  - dlwrad
+  - dswrad
+  - ahfl
+  - ahfs
+  prec_days: 0
+  target:
+  - snmel
+  transform_inputs:
+    ahfl:
+    - sym_log
+    - 5
+    ahfs:
+    - sym_log
+    - 15
+    rainfall:
+    - log
+    - 1
+    snfall:
+    - log
+    - 1
+directories:
+  base_dir: data/processed/HIRHAM5-ERAInterim/v_02
+  data_file: melt_regression
+  out_dir: output/optuna_melt_regression
+  overwrite: true
+  spatial_sub_file: GRL_subsampleidx_5000_flattened.zarr
+  temp_split_file: train_val_test_split_100.json
+  zones_file: GRLzones.zarr
+model:
+  hidden_activation: LeakyReLU
+  layers_daily_feat_extractor:
+  - 64
+  - 128
+  layers_medrange_feat_extractor: null
+  layers_regressor:
+  - 128
+  - 64
+  - 32
+  - 16
+  layers_spinup_feat_extractor: []
+  model_type: NN_melt
+  output_activation: ''
+  use_season: true
+training:
+  auto_mode: false
+  batch_size: 256
+  bce_weight: 4
+  continue_training: false
+  epochs: 300
+  loss_class: bce
+  loss_reg: mse
+  loss_weights: trainable
+  lr: 0.001
+  lr_decay: 0.9
+  lr_decay_epochs: 50
+  optimizer: adam
+  warmup_epochs: 0

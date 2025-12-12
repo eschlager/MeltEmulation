@@ -1,0 +1,11 @@
+/git_ignore/*
+
+
+**/.ipynb_checkpoints/*
+**/.idea/*
+**/__pycache__/*
+**/.vscode/*
+
+**/data
+**/output
+**/*.out
