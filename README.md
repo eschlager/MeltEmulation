@@ -23,7 +23,7 @@ Output data is available at Zenodo: [DOI: 10.5281/zenodo.17913228](https://doi.o
 ## Repository Overview
 ```
 MeltEmulation
-├── data (available upon request)
+├── data (see Data Availability)
 ├── evaluations: jupyter notebooks for evaluating and comparing models
 │   ├── calc_climatology: calculate climatology of true and predicted melt values
 │   ├── evaluate_best_models: computes scores for best model for each configuration (Table 2)
@@ -38,7 +38,7 @@ MeltEmulation
 │   ├── prepare_trainset.py: prepares a zarr file ready for efficient training based on specifications file
 │   ├── train_loop_optuna.py: Hyperparameter optimization for a specific configuration using Optuna library
 │   └── train_meltNN.py: main script for model training
-├── output ([DOI: 10.5281/zenodo.17913228](https://doi.org/10.5281/zenodo.17913228))
+├── output (see Data Availability)
 ├── preprocessing
 │   └── HIRHAM5_reanalysis:
 │       ├── create_basefile.py: data cleaning and transformation to zarr file, which is then used for pepare_trainset.py
