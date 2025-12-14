@@ -11,7 +11,8 @@ The proposed ML model is a modular Neural Network, trained on HIRHAM5 data; it t
 
 
 ## Data Availability
-Data will be published on Zenodo soon!
+Data for model training is available upon request.
+Output data is available at Zenodo: [DOI: 10.5281/zenodo.17913228](https://doi.org/10.5281/zenodo.17913228)
 
 
 ## Limitations
@@ -22,7 +23,7 @@ Data will be published on Zenodo soon!
 ## Repository Overview
 ```
 MeltEmulation
-├── data (see Data Availability)
+├── data (available upon request)
 ├── evaluations: jupyter notebooks for evaluating and comparing models
 │   ├── calc_climatology: calculate climatology of true and predicted melt values
 │   ├── evaluate_best_models: computes scores for best model for each configuration (Table 2)
@@ -37,7 +38,7 @@ MeltEmulation
 │   ├── prepare_trainset.py: prepares a zarr file ready for efficient training based on specifications file
 │   ├── train_loop_optuna.py: Hyperparameter optimization for a specific configuration using Optuna library
 │   └── train_meltNN.py: main script for model training
-├── output (see Data Availability)
+├── output ([DOI: 10.5281/zenodo.17913228](https://doi.org/10.5281/zenodo.17913228))
 ├── preprocessing
 │   └── HIRHAM5_reanalysis:
 │       ├── create_basefile.py: data cleaning and transformation to zarr file, which is then used for pepare_trainset.py
