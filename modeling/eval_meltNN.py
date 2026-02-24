@@ -198,6 +198,7 @@ def main(out_dir, mode='val', reconstruct_coords=False):
                 rmse_main = rmse
                 mae_main = mae
                 mbe_main = mbe
+                r2_main = r2
 
             val_fig_dir = os.path.sep.join([model_dir, f'{eval_specifier}_figures'])
             os.makedirs(val_fig_dir, exist_ok=True)
@@ -261,7 +262,7 @@ def main(out_dir, mode='val', reconstruct_coords=False):
 
         
     logging.shutdown()
-    return rmse_main, mae_main, mbe_main
+    return rmse_main, mae_main, mbe_main, r2_main
 
 
 parser = argparse.ArgumentParser(description = 'Evaluate NN_firn model')
