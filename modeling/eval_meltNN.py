@@ -324,4 +324,4 @@ if __name__ == "__main__":
     # main('./output/optuna_melt_modularNN_EBM/trial_13', mode='test', reconstruct_coords=True)
     # main('./output/optuna_melt_modularNN_EBS/trial_9', mode='test', reconstruct_coords=True)
     # main('./output/optuna_melt_modularNN_EBR/trial_22', mode='test', reconstruct_coords=True)
-    # main('./output/optuna_melt_modularNN_EBMnodoy/trial_21', mode='test', reconstruct_coords=True)
+    main('./output/optuna_melt_modularNN_EBMnodoy/trial_21', mode='test', reconstruct_coords=True)
