@@ -12,7 +12,7 @@ The proposed ML model is a modular Neural Network, trained on HIRHAM5 data; it t
 
 ## Data Availability
 Data for model training is available upon request.
-Output data is available at Zenodo: [DOI: 10.5281/zenodo.17913228](https://doi.org/10.5281/zenodo.17913228)
+Output data is available at Zenodo: [DOI: 10.5281/zenodo.19627367](https://doi.org/10.5281/zenodo.19627367)
 
 
 ## Limitations
@@ -55,7 +55,9 @@ MeltEmulation
 
 
 ## Citation
-This repository accompanies a paper that is currently in the submission process.
+This repository accompanies a paper that is currently in the submission process
+[DOI: 10.5194/egusphere-2026-7](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-7/)
+
 
 
 Code: licensed under MIT — see `LICENSE` file .
