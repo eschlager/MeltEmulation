@@ -25,10 +25,10 @@ Output data is available at Zenodo: [DOI: 10.5281/zenodo.19627367](https://doi.o
 MeltEmulation
 ├── data (see Data Availability)
 ├── evaluations: jupyter notebooks for evaluating and comparing models
-│   ├── calc_climatology: calculate climatology of true and predicted melt values
-│   ├── evaluate_best_models: computes scores for best model for each configuration (Table 2)
-│   ├── evaluate_modularNN: evaluate Modular NN basin-wise (Tables 3 & C1, Fig. 6)
-│   ├── evaluate_tuning_val: evaluate the tuning results of all configurations (Fig. B1, Table B1)
+│   ├── calc_climatology: calculate climatology of true and predicted melt values (Table A1)
+│   ├── evaluate_best_models: computes scores for best model for each configuration (Tables 3 and 4)
+│   ├── evaluate_modularNN: evaluate Modular NN basin-wise (Table 5, Fig. 8)
+│   ├── evaluate_tuning_val: evaluate the tuning results of all configurations (Tables C1 and C2, Fig. C1)
 │   └── plot_GRL: plot zones and basin maps
 ├── figures: resulting fiugres from evaluations scripts
 ├── modeling
